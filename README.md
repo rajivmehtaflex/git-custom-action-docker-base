@@ -1,5 +1,23 @@
-# hello-world-docker-action
+# Hello world docker action
 
-# setup of using custom action with docker
+This action prints "Hello World" or "Hello" + the name of a person to greet to the log.
 
+## Inputs
+
+## `who-to-greet`
+
+**Required** The name of the person to greet. Default `"World"`.
+
+## Outputs
+
+## `time`
+
+The time we greeted you.
+
+## Example usage
+
+uses: actions/hello-world-docker-action@v1
+with:
+  who-to-greet: 'Mona the Octocat'
+  
 <img src='https://upload.wikimedia.org/wikipedia/commons/6/66/Kareena_Kapoor_at_TOIFA16.jpg' />
